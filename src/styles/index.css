@@ -1,11 +1,49 @@
-/* 
+#amarillo{margin:3px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+#verde{margin:3px;
+       width: 80px;
+    height: 80px;
+     border-radius: 50px;
+}
 
-*/
+#rojo{margin:3px;
+     width: 80px;
+    height: 80px;
+     border-radius: 50px;
+}
+
+#semaforo{
+    padding-top: 10px;
+    width: 100px;
+    height: 280px;
+ border-radius: 8px;
+    background-color: black;
+}
+
+#tubo{
+    width: 15px;
+    height: 70px;
+    background-color:black ;
+
+}
+
+i{
+    font-size: 50px;
+}
+
+#botonIniciar{
+    border: 0;
+    margin: 50px;
+    background-color: rgb(60, 17, 117);
+transition: all 0.20s ease;
+box-shadow: 0 10px 0 rgb(203, 207, 207);
+}
+
+#botonIniciar:active{
+    transform: translate(6px);
+ box-shadow: 0 0 0 rgb(188, 190, 190);
+}
